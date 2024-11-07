@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #212121;
+    color: #fff;
+}
+
+.all {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    margin: 30px;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

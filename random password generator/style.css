@@ -1,0 +1,69 @@
+:root {
+    --bacground-body-1: #0e0e11;
+    --bacground-nav: #1E1F28;
+    --bg-color: #2d2e38;
+    --btn-color: #FFC950;
+    --sec-color: #282836;
+
+}
+
+body {
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    min-width: 600px;
+    border-radius: 20px;
+    background-color: var(--bacground-nav);
+    box-shadow: 10px 5px 15px black;
+}
+
+button {
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.result .passwordResult {
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 200px;
+    text-align: center;
+    background-color: #fff;
+    color: #0e0e11;
+    padding: 10px 5px;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    display:block;
+    flex-direction: column;
+    margin-bottom: 25px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.inputs label {
+    font-size: 1.3rem;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#passwordLenght {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
